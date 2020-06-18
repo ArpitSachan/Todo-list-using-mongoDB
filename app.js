@@ -14,7 +14,7 @@ app.set('view engine', 'html');
 
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useUnifiedTopology', true);
-mongoose.connect("mongodb://localhost:27017/todolistDB");
+mongoose.connect("mongodb+srv://admin-arpit:Test@123@cluster0-gfb8e.mongodb.net/todolistDB");
 
 const itemSchema= ({
   name: String
